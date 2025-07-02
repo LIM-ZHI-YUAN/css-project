@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -68,7 +69,6 @@ button {
 .hero-secondary-text {
     font-size: 18px;
     color: #F9FAF8;
-    flex-wrap: wrap;
     width: 400px;
     margin: 0;
     
@@ -150,7 +150,7 @@ button {
 
 .quote-text {
     font-size: 36px;
-    font-family: 'italic';
+    font-style: italic;
     color: #1F2937;
     margin-bottom: 0;
 }
@@ -208,4 +208,13 @@ button {
     font-size: 16px;
     border-style: solid;
     border-color: #F9FAF8;    
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
 }
